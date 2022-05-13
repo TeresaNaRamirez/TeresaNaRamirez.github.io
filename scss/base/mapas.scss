@@ -1,0 +1,19 @@
+/* mapas */
+$header:(
+  /* key - valaue (valor) */
+  bg-boton: black, 
+  border: 2 px solid orange
+  color-tex: white,
+  font-size-boton: 20px,
+);
+
+.boton{
+    background-color: map-get($boton, bg-boton);
+    border: map-get($boton, border);
+}
+$header:(
+bg-header: black,
+list: circle,
+decoration: none,
+Border-header: solid 2px black
+);
