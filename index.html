@@ -17,15 +17,6 @@
 <body>
 
 
-  <h1>Petshop | Alimento balanceado para mascotas</h1>
-<h2></h2>
-<a href="Nosotros.html">Info sobre nosotros</a>
-
-<video src="" title="Alimento balanceado para perros"></video>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6MxtJtLGUvU" title="Alimento Eukanuba balanceado" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
 
 
 
@@ -35,53 +26,88 @@
 
     <!-- Componente navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-              <img src="imagenes/Pet-shop-animals-logo-template-Graphics-10636979-1-1-580x386.png" alt="Logo">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="imagenes/Pet-shop-animals-logo-template-Graphics-10636979-1-1-580x386.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="Nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
               
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-              
-              <li class="nav-item">
-                <a class="nav-link" href="Nosotros.html">Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
-              </li>
-            </ul>
-          </div>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
+</nav>
     </header>
+   
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="alimento.html">Alimento</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="camas.html">Camas </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="accesorios.html">Accesorios</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="juguetes.html">Juguetes</a>
+      </li>
+    </ul>
 
+  
     <!-- Carrusel -->
     <section>
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="imagenes/98.webp" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="imagenes/mascotas-1024x576.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="imagenes/recomendaciones-para-cuidar-a-tu-mascota-en-tiempos-de-contingencia.webp" class="d-block w-100" alt="...">
-              </div>
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="imagenes/perro-gato-en-casa-1-t.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Cuidamos a tu Mascota</h5>
+              <p>Productos de excelente calidad para ellos</p>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="imagenes/mascotas-1024x576.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Todo nuestro amor para ellos</h5>
+              <p>Cuidar su alimentacion es nuestro trabajo</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/5_consejos_para_la_convivencia_entre_perros_y_gatos_7407_orig.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Cuidados y coquetos</h5>
+              <p>Accesorios y camas que a ellos les va a encantar</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </section>
 
 
@@ -91,17 +117,42 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 
 
-<main class="grid-container">
 
-    
-    <div class="grid-item">Imagenes</div>
-    <div class="grid-item">ofertas</div>
-    <div class="grid-item">promos</div>
-    
-</main>
+</header>
 
 
- 
+
+
+
+<div class="card-group">
+  <div class="card">
+    <img src="imagenes/accesorio mascota.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Accesorios</h5>
+      <p class="card-text">Hermosos accesorios para tu mascota</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="imagenes/cama perros moises.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Camas</h5>
+      <p class="card-text">Hermosas y super comodas para tu mascota</p>
+      <p class="card-text"><small class="text-muted">Last updated 1 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="imagenes/juguetes-para-mascotas-perros.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Juguetes</h5>
+      <p class="card-text">Juguestes super divertidos para ellos, elegi su preferido.</p>
+      <p class="card-text"><small class="text-muted">Last updated 5 mins ago</small></p>
+    </div>
+  </div>
+</div>
+
+
+
 
 
 </body>
