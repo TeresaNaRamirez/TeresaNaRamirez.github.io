@@ -1,26 +1,10 @@
-@import '../base/variables';
-@import '../base/listas';
-@import '../base/mapas.scss';
-
-header{ 
-    background-color: map-get($header, bg-header );
-    nav{
-        ul{
-            list-style: none;
-            li{
-                list-style: map-get($header, list );
-                a{ text-decoration: underline;
-            &:hover{
-                color: orange;
-                   }
-                }
-            }
-        }
-    }
-    /* media query */
-    @media screen and (max-width:450px){
-        background-color: orange;
-    }
-
-        
-}
+header-container{
+    color: rgb(54, 54, 54);
+    font-size: 20px;
+    background-color: #f9f9aa;
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+  
+  }
+ 

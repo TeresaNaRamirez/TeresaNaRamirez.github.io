@@ -1,19 +1,114 @@
-/* Error: expected ")".
- *   ,
- * 6 |   color-tex: white,
- *   |            ^
- *   '
- *   scss\base\mapas.scss 6:12         @import
- *   scss\components\_header.scss 3:9  @import
- *   scss\style.scss 3:9               root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected ")".\a   \2577 \a 6 \2502    color-tex: white,\d\a   \2502             ^\a   \2575 \a   scss\\base\\mapas.scss 6:12         @import\a   scss\\components\\_header.scss 3:9  @import\a   scss\\style.scss 3:9               root stylesheet';
+/* nesting o anidamiento*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+footer .pie-pagina {
+  width: 100%;
+  background-color: #ffb956;
+}
+footer .pie-pagina .grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+footer .pie-pagina .grupo-1 .box figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .pie-pagina .grupo-1 .box figure img {
+  width: 150px;
+}
+footer .pie-pagina .grupo-1 .box h2 {
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+footer .pie-pagina .grupo-1 .box p {
+  color: #f6f2f2;
+  margin-bottom: 10px;
+}
+footer .pie-pagina .grupo-1 .red-social a {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  margin-right: 10px;
+  background-color: #f9f9f9;
+  text-align: center;
+  transition: all 300ms ease;
+}
+footer .pie-pagina .grupo-1 .red-social a:hover {
+  color: rgb(219, 146, 0);
+}
+footer .pie-pagina .grupo-2 {
+  background-color: #f1ab4a;
+  padding: 15px 10px;
+  text-align: center;
+  color: #fff;
+}
+footer .pie-pagina .grupo-2 small {
+  font-size: 15px;
+}
+@media screen and (max-width: 800px) {
+  footer .pie-pagina .grupo-1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+  }
+}
+
+info-container {
+  color: rgb(246, 172, 76);
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+}
+
+info-container {
+  display: flex;
+  justify-content: center;
+}
+
+header-container {
+  color: rgb(54, 54, 54);
+  font-size: 20px;
+  background-color: #f9f9aa;
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav {
+  border: solid 1px #f9f9aa;
+  width: 60%;
+}
+
+/*# sourceMappingURL=style.css.map */

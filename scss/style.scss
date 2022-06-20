@@ -1,8 +1,24 @@
 /* nesting o anidamiento*/
+*{
+    margin: 0;
+    padding: 0;
+}
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@import '../scss/components/footer';
+@import '../scss/components/-section.scss';
 @import '../scss/components/header';
-@import '../scss/base/listas';
+@import '../scss/components/menu';
+@import '../scss/components/nav';
 @import '../scss/base/variables';
-@import '../scss/base/mapas.scss';
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
+  
